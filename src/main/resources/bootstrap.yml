@@ -3,7 +3,8 @@ spring:
     name: onlinejudge-ifa-registry
   cloud:
     config:
-      uri: http://127.0.0.1:8888
+#      uri: http://127.0.0.1:8888
+      uri: http://nhuocquy.xyz:8888
       fail-fast: true
       password: ${CONFIG_SERVICE_PASSWORD:passwordConfigServer}
       username: user
